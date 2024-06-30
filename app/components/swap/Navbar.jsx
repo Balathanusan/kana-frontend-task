@@ -51,7 +51,7 @@ export default function Navbar() {
       {/* Desktop */}
       <div className="hidden min-h-screen w-[88px] flex-col items-center bg-bg4 p-4 md:flex">
         <div className="mb-10 p-4">
-          <img src="/icons/logo.svg" className="w-[25px]" alt="" />
+          <img src="/icons/logo.svg" className="w-[25px]" alt="image" />
         </div>
         <div className="flex flex-col gap-2">
           {menuDesktop.map((item) => {
@@ -59,7 +59,7 @@ export default function Navbar() {
               <button
                 className={`rounded-2xl p-5 ${item.active ? "bg-bg7" : null}`}
               >
-                <img className="w-4" src={`/icons/${item.icon}`} alt="" />
+                <img className="w-4" src={`/icons/${item.icon}`} alt="image" />
               </button>
             );
           })}
@@ -67,7 +67,7 @@ export default function Navbar() {
 
         <div className="mt-auto">
           <button className="rounded-2xl bg-bg5 p-5">
-            <img src="/icons/question-mark-secondary.svg" alt="" />
+            <img src="/icons/question-mark-secondary.svg" alt="image" />
           </button>
         </div>
       </div>
@@ -79,7 +79,7 @@ export default function Navbar() {
             <button
               className={`flex flex-1 flex-col items-center justify-center py-[19px] ${item.active ? "shadow-[inset_0_2px_0_0_#2ED3B7]" : null}`}
             >
-              <img src={`/icons/${item.icon}`} alt="" />
+              <img src={`/icons/${item.icon}`} alt="image" />
               <p
                 className={`mt-2 text-[10px] ${item.active ? "text-primary" : "text-color3"}`}
               >

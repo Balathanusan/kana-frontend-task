@@ -24,12 +24,12 @@ export default function Feature2() {
           <img
             src="/images/feature-2a.png"
             className="z-10 w-full scale-110 sm:w-[400px]"
-            alt=""
+            alt="image"
           />
           <img
             src="/images/feature-2a-ellipse.png"
             className="absolute -bottom-12 w-[400px] sm:-bottom-6"
-            alt=""
+            alt="image"
           />
         </div>
       </div>
@@ -46,17 +46,17 @@ export default function Feature2() {
           <img
             src="/images/feature-2b.png"
             className="z-10 hidden w-full sm:block sm:w-[476px]"
-            alt=""
+            alt="image"
           />
           <img
             src="/images/feature-2b-mobile.png"
             className="z-10 max-h-[420px] sm:hidden sm:w-[476px]"
-            alt=""
+            alt="image"
           />
           <img
             src="/images/feature-2b-ellipse.png"
             className="absolute -bottom-14 w-full sm:-bottom-12 sm:w-[476px]"
-            alt=""
+            alt="image"
           />
         </div>
       </div>

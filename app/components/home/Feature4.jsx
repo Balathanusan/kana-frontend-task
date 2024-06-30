@@ -23,21 +23,21 @@ export default function Feature4() {
               <p className="font-sourcecodepro leading-6 text-color6">
                 npm install @kanalabs/ paymaster-sdk
               </p>
-              <img src="/icons/copy-secondary.svg" alt="" />
+              <img src="/icons/copy-secondary.svg" alt="image" />
             </div>
             <p className="my-4">or</p>
             <div className="flex justify-between gap-2 rounded-2xl border border-line1 bg-bg5 p-4">
               <p className="font-sourcecodepro leading-6 text-color6">
                 yarn add @kanalabs/paymaster-sdk
               </p>
-              <img src="/icons/copy-secondary.svg" alt="" />
+              <img src="/icons/copy-secondary.svg" alt="image" />
             </div>
           </div>
 
           <img
             src="/images/feature-4-ellipse.png"
             className="absolute -bottom-14 left-0 right-0"
-            alt=""
+            alt="image"
           />
         </div>
         <div className="relative flex-1 overflow-hidden rounded-3xl bg-bg5 px-4 py-6 md:px-10 md:py-16 lg:px-28 lg:py-24">
@@ -53,20 +53,20 @@ export default function Feature4() {
               <p className="font-sourcecodepro leading-6 text-color6">
                 npm install @kanalabs/ paymaster-sdk
               </p>
-              <img src="/icons/copy-secondary.svg" alt="" />
+              <img src="/icons/copy-secondary.svg" alt="image" />
             </div>
             <p className="my-4">or</p>
             <div className="flex justify-between gap-2 rounded-2xl border border-line1 bg-bg5 p-4">
               <p className="font-sourcecodepro leading-6 text-color6">
                 yarn add @kanalabs/paymaster-sdk
               </p>
-              <img src="/icons/copy-secondary.svg" alt="" />
+              <img src="/icons/copy-secondary.svg" alt="image" />
             </div>
           </div>
           <img
             src="/images/feature-4-ellipse.png"
             className="absolute -bottom-14 left-0 right-0"
-            alt=""
+            alt="image"
           />
         </div>
       </div>

@@ -69,7 +69,7 @@ export default function HomeTab() {
               <button
                 className={`-mb-[1px] flex flex-1 items-center gap-2 border-b border-line1 px-6 py-4 text-xs font-extrabold md:flex-none md:rounded-t-2xl md:border ${tab.active ? "text-color7 border-b-bg9 bg-bg9 md:border-b-bg4 md:bg-bg4" : "bg-bg5 text-color3"}`}
               >
-                <img src={`/icons/${tab.icon}`} alt="" />
+                <img src={`/icons/${tab.icon}`} alt="image" />
                 <span>{tab.name}</span>
               </button>
             );
@@ -77,7 +77,7 @@ export default function HomeTab() {
         </div>
         <div className="hidden md:block">
           <button className="p-2">
-            <img src="/icons/grid-primary.svg" alt="" />
+            <img src="/icons/grid-primary.svg" alt="image" />
           </button>
         </div>
       </div>
@@ -89,10 +89,10 @@ export default function HomeTab() {
             </span>
             <div className="flex items-center gap-2">
               <button className="p-2">
-                <img src="/icons/refresh-primary.svg" alt="" />
+                <img src="/icons/refresh-primary.svg" alt="image" />
               </button>
               <button className="p-2">
-                <img src="/icons/filters-primary.svg" alt="" />
+                <img src="/icons/filters-primary.svg" alt="image" />
               </button>
             </div>
           </div>
@@ -102,7 +102,7 @@ export default function HomeTab() {
                 <button
                   className={`rounded-lg p-2 ${item.active ? "bg-bg7 border border-line1" : null}`}
                 >
-                  <img src={`/logos/${item.icon}`} alt="" />
+                  <img src={`/logos/${item.icon}`} alt="image" />
                 </button>
               );
             })}
@@ -114,7 +114,7 @@ export default function HomeTab() {
                   <button
                     className={`rounded-lg p-2 ${item.active ? "bg-bg7 border border-line1" : null}`}
                   >
-                    <img src={`/logos/${item.icon}`} alt="" />
+                    <img src={`/logos/${item.icon}`} alt="image" />
                   </button>
                 );
               })}
@@ -125,7 +125,7 @@ export default function HomeTab() {
                 <img
                   src="icons/chevron-down-primary.svg"
                   className="translate-x-1"
-                  alt=""
+                  alt="image"
                 />
               </Button>
             </div>
@@ -145,7 +145,7 @@ export default function HomeTab() {
                   </p>
                 </div>
                 <div className="flex min-w-[160px] gap-2 rounded-2xl border border-line1 bg-bg4 p-4">
-                  <img src="/icons/placeholder.svg" alt="" />
+                  <img src="/icons/placeholder.svg" alt="image" />
                   <div className="text-color7 flex items-center gap-2 md:block">
                     <p className="text-lg font-extrabold">Token</p>
                     <p className="text-[10px]">
@@ -165,7 +165,7 @@ export default function HomeTab() {
             </div>
             <div className="-my-[10px] flex justify-center">
               <button className="rounded-lg border border-line1 bg-bg4 p-2">
-                <img src="/icons/switch-arrows-secondary.svg" alt="" />
+                <img src="/icons/switch-arrows-secondary.svg" alt="image" />
               </button>
             </div>
             <div className="rounded-2xl border border-line1 bg-bg5 px-6 py-4">
@@ -182,7 +182,7 @@ export default function HomeTab() {
                   </p>
                 </div>
                 <div className="flex min-w-[160px] gap-2 rounded-2xl border border-line1 bg-bg4 p-4">
-                  <img src="/icons/placeholder.svg" alt="" />
+                  <img src="/icons/placeholder.svg" alt="image" />
                   <div className="text-color7 flex items-center gap-2 md:block">
                     <p className="text-lg font-extrabold">Token</p>
                     <p className="text-[10px]">
@@ -204,7 +204,7 @@ export default function HomeTab() {
           <div className="mb-4 md:mb-0">
             <button className="mx-auto my-4 flex items-center gap-2 text-sm text-color3 md:hidden">
               <span>More routes</span>
-              <img src="icons/chevron-down-secondary.svg" alt="" />
+              <img src="icons/chevron-down-secondary.svg" alt="image" />
             </button>
             <Button type="primary" classess="w-full">
               Swap now
@@ -215,7 +215,7 @@ export default function HomeTab() {
       <div className="mt-4 px-4 md:px-0">
         <button className="flex w-full items-center justify-between rounded-2xl border border-line1 bg-bg4 p-6">
           <span className="text-sm text-color4">Additional details</span>
-          <img src="icons/chevron-down-secondary.svg" alt="" />
+          <img src="icons/chevron-down-secondary.svg" alt="image" />
         </button>
       </div>
     </div>

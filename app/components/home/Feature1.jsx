@@ -35,12 +35,12 @@ export default function Feature1() {
           <img
             src="/images/feature-1.png"
             className="z-10 w-full sm:w-[408px]"
-            alt=""
+            alt="image"
           />
           <img
             src="/images/feature-1-ellipse.png"
             className="absolute scale-[1.4]"
-            alt=""
+            alt="image"
           />
         </div>
       </div>

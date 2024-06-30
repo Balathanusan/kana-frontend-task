@@ -23,17 +23,17 @@ export default function Feature3() {
           <img
             src="/images/feature-3.png"
             className="z-10 hidden w-full sm:block sm:w-[476px]"
-            alt=""
+            alt="image"
           />
           <img
             src="/images/feature-3-mobile.png"
             className="z-10 max-h-[420px] sm:hidden sm:max-w-[476px]"
-            alt=""
+            alt="image"
           />
           <img
             src="/images/feature-3-ellipse.png"
             className="absolute -bottom-20 right-0 w-full sm:-bottom-32 md:-bottom-10 md:w-[476px] md:scale-125"
-            alt=""
+            alt="image"
           />
         </div>
       </div>

@@ -9,7 +9,7 @@ export default function Menu() {
             <span className="text-color5">Wallet not connected</span>
           </div>
           <div className="bg-bg8 flex flex-1 items-center rounded-2xl px-3 py-4 lg:px-6">
-            <img src="/icons/search-secondary.svg" className="w-6" alt="" />
+            <img src="/icons/search-secondary.svg" className="w-6" alt="image" />
             <input
               type="text"
               placeholder="Search"
@@ -17,7 +17,7 @@ export default function Menu() {
             />
           </div>
           <button className="bg-bg8 flex flex-1 items-center gap-2 rounded-2xl px-3 py-4 lg:px-6">
-            <img src="/icons/user-circle-primary.svg" alt="" />
+            <img src="/icons/user-circle-primary.svg" alt="image" />
             <span className="text-sm font-extrabold text-primary">
               Connect wallet
             </span>
@@ -26,7 +26,7 @@ export default function Menu() {
             <img
               src="/icons/settings-secondary.svg"
               className="min-w-6"
-              alt=""
+              alt="image"
             />
           </button>
         </div>
@@ -36,15 +36,15 @@ export default function Menu() {
       <div className="fixed top-0 w-full md:hidden">
         <div className="flex items-center justify-between border-b border-line1 bg-bg5 px-4 py-5">
           <div className="flex items-center gap-4">
-            <img src="/icons/logo.svg" className="w-[19px]" alt="" />
+            <img src="/icons/logo.svg" className="w-[19px]" alt="image" />
             <span className="text-color7 text-sm font-extrabold">Swap</span>
           </div>
           <div className="flex gap-2">
             <button>
-              <img src="/icons/settings.svg" alt="" />
+              <img src="/icons/settings.svg" alt="image" />
             </button>
             <button>
-              <img src="/icons/menu-2.svg" alt="" />
+              <img src="/icons/menu-2.svg" alt="image" />
             </button>
           </div>
         </div>
