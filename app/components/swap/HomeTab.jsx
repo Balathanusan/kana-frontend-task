@@ -61,13 +61,13 @@ export default function HomeTab() {
   ];
 
   return (
-    <div className="mx-auto mt-16 min-h-screen w-full pb-28 sm:mt-4 sm:min-h-0 sm:max-w-[536px] sm:pb-0">
+    <div className="mx-auto mt-16 min-h-screen w-full pb-28 md:mt-4 md:min-h-0 md:max-w-[536px] md:pb-0">
       <div className="flex items-center justify-between">
-        <div className="flex flex-1 items-center sm:flex-none">
+        <div className="flex flex-1 items-center md:flex-none">
           {tabs.map((tab) => {
             return (
               <button
-                className={`-mb-[1px] flex flex-1 items-center gap-2 border-b border-line1 px-6 py-4 text-xs font-extrabold sm:flex-none sm:rounded-t-2xl sm:border ${tab.active ? "text-color7 border-b-bg9 bg-bg9 sm:border-b-bg4 sm:bg-bg4" : "bg-bg5 text-color3"}`}
+                className={`-mb-[1px] flex flex-1 items-center gap-2 border-b border-line1 px-6 py-4 text-xs font-extrabold md:flex-none md:rounded-t-2xl md:border ${tab.active ? "text-color7 border-b-bg9 bg-bg9 md:border-b-bg4 md:bg-bg4" : "bg-bg5 text-color3"}`}
               >
                 <img src={`/icons/${tab.icon}`} alt="" />
                 <span>{tab.name}</span>
@@ -75,13 +75,13 @@ export default function HomeTab() {
             );
           })}
         </div>
-        <div className="hidden sm:block">
+        <div className="hidden md:block">
           <button className="p-2">
             <img src="/icons/grid-primary.svg" alt="" />
           </button>
         </div>
       </div>
-      <div className="bg-bg9 border-line1 p-4 sm:rounded-b-2xl sm:rounded-tr-2xl sm:border sm:bg-bg4 sm:p-6">
+      <div className="bg-bg9 border-line1 p-4 md:rounded-b-2xl md:rounded-tr-2xl md:border md:bg-bg4 md:p-6">
         <div>
           <div className="flex items-center justify-between">
             <span className="text-color7 text-sm font-extrabold">
@@ -96,7 +96,7 @@ export default function HomeTab() {
               </button>
             </div>
           </div>
-          <div className="mt-4 hidden gap-2 sm:flex">
+          <div className="mt-4 hidden gap-2 md:flex">
             {chains.map((item) => {
               return (
                 <button
@@ -107,7 +107,7 @@ export default function HomeTab() {
               );
             })}
           </div>
-          <div className="mt-4 flex justify-between gap-2 sm:hidden">
+          <div className="mt-4 flex justify-between gap-2 md:hidden">
             <div className="flex gap-2">
               {chainsMobile.map((item) => {
                 return (
@@ -132,21 +132,21 @@ export default function HomeTab() {
           </div>
           <div className="my-4">
             <div className="rounded-2xl border border-line1 bg-bg5 px-6 py-4">
-              <div className="flex flex-col gap-4 sm:flex-row">
-                <div className="order-2 flex flex-1 flex-col border-b border-line1 sm:order-none">
-                  <div className="flex justify-between gap-2 sm:justify-normal">
+              <div className="flex flex-col gap-4 md:flex-row">
+                <div className="order-2 flex flex-1 flex-col border-b border-line1 md:order-none">
+                  <div className="flex justify-between gap-2 md:justify-normal">
                     <span className="text-xs text-color3">Pay from</span>{" "}
                     <button className="text-xs font-extrabold text-primary">
                       Connect Wallet
                     </button>
                   </div>
-                  <p className="mb-2 mt-4 text-xl font-medium text-color3 sm:mt-auto">
+                  <p className="mb-2 mt-4 text-xl font-medium text-color3 md:mt-auto">
                     0.00
                   </p>
                 </div>
                 <div className="flex min-w-[160px] gap-2 rounded-2xl border border-line1 bg-bg4 p-4">
                   <img src="/icons/placeholder.svg" alt="" />
-                  <div className="text-color7 flex items-center gap-2 sm:block">
+                  <div className="text-color7 flex items-center gap-2 md:block">
                     <p className="text-lg font-extrabold">Token</p>
                     <p className="text-[10px]">
                       on <span className="font-bold">Chain</span>
@@ -169,21 +169,21 @@ export default function HomeTab() {
               </button>
             </div>
             <div className="rounded-2xl border border-line1 bg-bg5 px-6 py-4">
-              <div className="flex flex-col gap-4 sm:flex-row">
-                <div className="order-2 flex flex-1 flex-col border-b border-line1 sm:order-none">
-                  <div className="flex justify-between gap-2 sm:justify-normal">
+              <div className="flex flex-col gap-4 md:flex-row">
+                <div className="order-2 flex flex-1 flex-col border-b border-line1 md:order-none">
+                  <div className="flex justify-between gap-2 md:justify-normal">
                     <span className="text-xs text-color3">Receive to</span>{" "}
                     <button className="text-xs font-extrabold text-primary">
                       Connect Wallet
                     </button>
                   </div>
-                  <p className="mb-2 mt-4 text-xl font-medium text-color3 sm:mt-auto">
+                  <p className="mb-2 mt-4 text-xl font-medium text-color3 md:mt-auto">
                     0.00
                   </p>
                 </div>
                 <div className="flex min-w-[160px] gap-2 rounded-2xl border border-line1 bg-bg4 p-4">
                   <img src="/icons/placeholder.svg" alt="" />
-                  <div className="text-color7 flex items-center gap-2 sm:block">
+                  <div className="text-color7 flex items-center gap-2 md:block">
                     <p className="text-lg font-extrabold">Token</p>
                     <p className="text-[10px]">
                       on <span className="font-bold">Chain</span>
@@ -201,8 +201,8 @@ export default function HomeTab() {
               </div>
             </div>
           </div>
-          <div className="mb-4 sm:mb-0">
-            <button className="mx-auto my-4 flex items-center gap-2 text-sm text-color3 sm:hidden">
+          <div className="mb-4 md:mb-0">
+            <button className="mx-auto my-4 flex items-center gap-2 text-sm text-color3 md:hidden">
               <span>More routes</span>
               <img src="icons/chevron-down-secondary.svg" alt="" />
             </button>
@@ -212,7 +212,7 @@ export default function HomeTab() {
           </div>
         </div>
       </div>
-      <div className="mt-4 px-4 sm:px-0">
+      <div className="mt-4 px-4 md:px-0">
         <button className="flex w-full items-center justify-between rounded-2xl border border-line1 bg-bg4 p-6">
           <span className="text-sm text-color4">Additional details</span>
           <img src="icons/chevron-down-secondary.svg" alt="" />

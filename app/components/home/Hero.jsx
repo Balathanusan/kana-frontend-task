@@ -87,15 +87,15 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="mx-auto mt-[63px] flex max-w-[240px] flex-col justify-center gap-4 sm:mt-[121px] sm:max-w-[1008px] sm:flex-row">
+      <div className="mx-auto mt-[63px] grid max-w-[240px] grid-cols-1 justify-center gap-4 px-2 sm:mt-[121px] sm:max-w-[1008px] sm:grid-cols-2 lg:grid-cols-4">
         {highlights.map((item) => {
           return (
             <a
               href={item.url}
               key={item.title}
-              className={`group overflow-hidden flex flex-col rounded-2xl border border-line1 bg-bg1 transition-shadow hover:shadow-[0_20px_9px_-8px_#00FFFF14] ${item.classes}`}
+              className={`group flex flex-col overflow-hidden rounded-2xl border border-line1 bg-bg1 transition-shadow hover:shadow-[0_20px_9px_-8px_#00FFFF14] ${item.classes}`}
             >
-              <div className="relative flex-1 hidden pb-2 pl-[31px] pr-8 pt-8 sm:block">
+              <div className="relative hidden flex-1 pb-2 pl-[31px] pr-8 pt-8 sm:block">
                 <p className="relative z-20 text-xl leading-[28px] text-color4">
                   {item.description}
                 </p>
@@ -111,7 +111,7 @@ export default function Hero() {
                   alt=""
                 />
               </div>
-              <div className="flex justify-between mt-auto bg-bg2 px-6 py-4">
+              <div className="mt-auto flex justify-between bg-bg2 px-6 py-4">
                 <span className="text-lg font-extrabold">{item.title}</span>
                 <img src="/icons/redirect-secondary.svg" width={16} alt="" />
               </div>

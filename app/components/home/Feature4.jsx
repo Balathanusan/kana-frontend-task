@@ -2,15 +2,15 @@ import Button from "@/components/Button";
 
 export default function Feature4() {
   return (
-    <section className="mt-[138px] px-4 sm:px-0">
+    <section className="mt-[138px] px-8 md:px-2">
       <div className="py-[58px] text-center">
         <h2 className="mb-2 font-urbanist text-4xl font-bold leading-[44px]">
           For Developers
         </h2>
         <Button type="secondary">Explore Documentation</Button>
       </div>
-      <div className="mx-auto mt-4 flex max-w-[1232px] flex-col gap-4 sm:flex-row">
-        <div className="relative flex-1 overflow-hidden rounded-3xl bg-bg5 px-4 py-6 sm:px-28 sm:py-24">
+      <div className="mx-auto mt-4 flex max-w-[1232px] flex-col gap-4 md:flex-row">
+        <div className="relative flex-1 overflow-hidden rounded-3xl bg-bg5 px-4 py-6 md:px-10 md:py-16 lg:px-28 lg:py-24">
           <p className="mb-2 font-urbanist text-4xl font-bold leading-[44px]">
             Mirai SDK
           </p>
@@ -40,7 +40,7 @@ export default function Feature4() {
             alt=""
           />
         </div>
-        <div className="relative flex-1 overflow-hidden rounded-3xl bg-bg5 px-4 py-6 sm:px-28 sm:py-24">
+        <div className="relative flex-1 overflow-hidden rounded-3xl bg-bg5 px-4 py-6 md:px-10 md:py-16 lg:px-28 lg:py-24">
           <p className="mb-2 font-urbanist text-4xl font-bold leading-[44px]">
             Cross-chain Swap
           </p>

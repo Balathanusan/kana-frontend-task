@@ -49,7 +49,7 @@ export default function Navbar() {
   return (
     <div>
       {/* Desktop */}
-      <div className="hidden min-h-screen w-[88px] flex-col items-center bg-bg4 p-4 sm:flex">
+      <div className="hidden min-h-screen w-[88px] flex-col items-center bg-bg4 p-4 md:flex">
         <div className="mb-10 p-4">
           <img src="/icons/logo.svg" className="w-[25px]" alt="" />
         </div>
@@ -73,7 +73,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile */}
-      <div className="fixed bottom-0 flex w-full bg-bg2 sm:hidden">
+      <div className="fixed bottom-0 flex w-full bg-bg2 md:hidden">
         {menuMobile.map((item) => {
           return (
             <button

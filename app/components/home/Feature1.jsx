@@ -9,7 +9,7 @@ export default function Feature1() {
     router.push(`/swap`);
   };
   return (
-    <section className="px-8 sm:px-0">
+    <section className="px-8 md:px-2">
       <div className="py-[60px] text-center">
         <h2 className="mb-2 font-urbanist text-4xl font-bold leading-[44px]">
           Cross-chain swap
@@ -18,20 +18,20 @@ export default function Feature1() {
           Try Swap
         </Button>
       </div>
-      <div className="mx-auto mt-4 flex max-w-[1232px] flex-col items-center gap-14 overflow-hidden rounded-3xl bg-bg5 py-6 sm:flex-row sm:py-[134px]">
-        <div className="order-2 flex-1 px-4 sm:order-none sm:ml-28 sm:max-w-[476px] sm:px-0">
-          <p className="mb-4 text-[24px] leading-[32px] text-color3 sm:text-[32px] sm:leading-[42px]">
+      <div className="mx-auto mt-4 flex max-w-[1232px] flex-col items-center gap-14 overflow-hidden rounded-3xl bg-bg5 px-0 py-6 md:flex-row md:px-16 md:py-[134px] lg:px-28">
+        <div className="order-2 flex-1 px-4 md:order-none md:max-w-[476px] md:px-0">
+          <p className="mb-4 text-[24px] leading-[32px] text-color3 md:text-[32px] md:leading-[42px]">
             Swap tokens natively using across{" "}
             <span className="font-bold text-white">
               Solana, Aptos, Ethereum, zksync, Arbitrum, Sui, Optimism, Polygon
               and more!
             </span>
           </p>
-          <Button onClick={viewSwap} classess="sm:w-fit w-full" type="primary">
+          <Button onClick={viewSwap} classess="md:w-fit w-full" type="primary">
             Swap now
           </Button>
         </div>
-        <div className="relative flex flex-1 items-center justify-end px-[10px] sm:mr-[146px] sm:px-0">
+        <div className="relative flex flex-1 items-center justify-end px-[10px] md:px-0">
           <img
             src="/images/feature-1.png"
             className="z-10 w-full sm:w-[408px]"
