@@ -11,7 +11,7 @@ module.exports = {
       fontFamily: {
         manrope: ['"Manrope", sans-serif'],
         urbanist: ['"Urbanist", sans-serif'],
-        sourcecodepro: ['"Source Code Pro", monospace']
+        sourcecodepro: ['"Source Code Pro", monospace'],
       },
       colors: {
         primary: "#2ED3B7",

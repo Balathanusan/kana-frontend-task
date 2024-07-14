@@ -1,6 +1,14 @@
+"use client";
 import Button from "@/components/Button";
+import { useRouter } from "next/navigation";
 
 export default function Feature2() {
+  const router = useRouter();
+
+  const viewSwap = () => {
+    router.push(`/swap`);
+  };
+
   return (
     <section className="mt-[138px] px-8 md:px-2">
       <div className="py-[46px] text-center">
@@ -8,7 +16,9 @@ export default function Feature2() {
         <h2 className="mb-2 font-urbanist text-4xl font-bold leading-[44px]">
           Trade
         </h2>
-        <Button type="secondary">See whats new</Button>
+        <Button onClick={viewSwap} type="secondary">
+          See whats new
+        </Button>
       </div>
       <div className="mx-auto mt-4 flex max-w-[1232px] flex-col gap-4 md:flex-row">
         <div className="order-2 flex flex-1 items-center rounded-3xl bg-gradient-to-br from-[#033B4C] to-[#0E9384] px-6 py-8 md:order-none md:px-16 md:py-0 lg:px-28">
@@ -17,7 +27,9 @@ export default function Feature2() {
               Spot Trading. Buy and Sell with limit and market order-books.
               Built on Aptos.
             </p>
-            <Button type="primary">Trade now</Button>
+            <Button onClick={viewSwap} type="primary">
+              Trade now
+            </Button>
           </div>
         </div>
         <div className="relative flex flex-1 items-center justify-center rounded-3xl bg-bg5 py-12 md:px-16 md:py-[71px] lg:px-[103px]">
@@ -39,7 +51,9 @@ export default function Feature2() {
             <p className="mb-2 text-[24px] leading-[32px] md:text-[32px] md:leading-[42px]">
               Trade with leverage
             </p>
-            <Button type="primary">Try Perps</Button>
+            <Button onClick={viewSwap} type="primary">
+              Try Perps
+            </Button>
           </div>
         </div>
         <div className="relative flex flex-1 items-center justify-center px-4 md:px-0 md:py-8">

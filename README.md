@@ -1,4 +1,4 @@
-## Kana Front End Task
+## Front End Task
 
 To run the development server:
 
@@ -17,5 +17,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Live preview
 
-- [Home page](https://kana-frontend-task.netlify.app/)
-- [Swap page](https://kana-frontend-task.netlify.app/swap)
+- [Home page](https://frontend-task-2024-ultra-violet.netlify.app/)
+- [Swap page](https://frontend-task-2024-ultra-violet.netlify.app/swap)

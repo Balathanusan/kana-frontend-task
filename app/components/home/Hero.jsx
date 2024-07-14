@@ -9,7 +9,7 @@ export default function Hero() {
     {
       title: "Trade",
       description: "Lorem ipsum dolor sit amet",
-      url: "#",
+      url: "swap",
       icon: "bar-chart.png",
       width: 116,
     },
@@ -24,14 +24,14 @@ export default function Hero() {
     {
       title: "Perps",
       description: "Lorem ipsum dolor sit amet",
-      url: "#",
+      url: "swap",
       icon: "scales.png",
       width: 123,
     },
     {
       title: "OPerps",
       description: "Lorem ipsum dolor sit amet",
-      url: "#",
+      url: "swap",
       icon: "scales.png",
       width: 123,
     },
@@ -71,7 +71,7 @@ export default function Hero() {
             >
               Launch App
             </Button>
-            <Button type="tertiary">Learn More</Button>
+            <Button onClick={viewSwap} type="tertiary">Learn More</Button>
           </div>
         </div>
         <div className="pointer-events-none absolute right-0 md:pr-12">

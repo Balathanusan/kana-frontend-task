@@ -1,6 +1,14 @@
+"use client";
 import Button from "@/components/Button";
+import { useRouter } from "next/navigation";
 
 export default function Feature3() {
+  const router = useRouter();
+
+  const viewSwap = () => {
+    router.push(`/swap`);
+  };
+
   return (
     <section className="mt-[138px] px-8 md:px-2">
       <div className="py-6 text-center md:py-[46px]">
@@ -8,7 +16,9 @@ export default function Feature3() {
         <h2 className="mb-2 font-urbanist text-4xl font-bold leading-[44px]">
           OPerps - Derivatives Token
         </h2>
-        <Button type="secondary">See whats new</Button>
+        <Button onClick={viewSwap} type="secondary">
+          See whats new
+        </Button>
       </div>
       <div className="mx-auto mt-4 flex max-w-[1232px] flex-col gap-14 rounded-3xl bg-bg5 px-4 py-8 md:flex-row md:gap-4 md:px-16 md:py-0 lg:px-28">
         <div className="order-2 flex flex-1 items-center md:order-none">
@@ -16,7 +26,9 @@ export default function Feature3() {
             <p className="mb-2 text-[24px] leading-[32px] md:text-[32px] md:leading-[42px]">
               A derivatives token for trading and hedging.
             </p>
-            <Button type="primary">Try OPerps</Button>
+            <Button onClick={viewSwap} type="primary">
+              Try OPerps
+            </Button>
           </div>
         </div>
         <div className="relative flex flex-1 items-center justify-center md:py-8">
